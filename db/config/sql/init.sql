@@ -1,0 +1,1 @@
+grant all on db_example.* to 'springuser'@'%';

@@ -1,0 +1,22 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/carrot?rewriteBatchedStatements=true
+    username: springuser
+    password: ThePassword
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: create
+    properties:
+      hibernate:
+        #        format_sql: true
+        default_batch_fetch_size: 1000
+        order_inserts: true
+        order_updates: true
+        jdbc:
+          batch_size: 10000
+    open-in-view: false
+#    show-sql: true
+#logging.level:
+#  org.hibernate.SQL: debug
+#  org.hibernate.type: trace
