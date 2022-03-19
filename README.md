@@ -60,6 +60,9 @@
 - [Repository] `fetch join`을 통해 조건에 맞는 결과를 `List<Bank>`로 반환한다.
 - [Service] DTO 변환 후 반환한다.
 
+## API 명세
+[Swagger 문서](https://app.swaggerhub.com/apis-docs/lauvsong/carrot/1.0.0)
+
 ## 서버 구동법
 
 1. 소스코드 다운로드
