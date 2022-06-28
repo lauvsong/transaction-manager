@@ -61,7 +61,7 @@
 - [Service] DTO 변환 후 반환한다.
 
 ## API 명세
-[Swagger 문서](https://app.swaggerhub.com/apis-docs/lauvsong/carrot/1.0.0)
+[Swagger 문서](https://app.swaggerhub.com/apis-docs/lauvsong/transaction-manager/1.0.0)
 
 ## 서버 구동법
 
